@@ -22,7 +22,7 @@ import {
   SelectValue,
 } from "../components/ui/select";
 import { Search, Calendar, Eye, CheckCircle2, Clock, XCircle, FileText } from "lucide-react";
-import { useNavigate } from "react-router";
+import { useNavigate } from "react-router-dom";
 
 export function QuotationsListPage() {
   const { user } = useAuth();

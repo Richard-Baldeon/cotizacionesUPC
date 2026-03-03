@@ -1,6 +1,6 @@
 import { ReactNode } from "react";
 import { useAuth } from "../contexts/AuthContext";
-import { useNavigate, Link, useLocation } from "react-router";
+import { useNavigate, Link, useLocation } from "react-router-dom";
 import { Button } from "./ui/button";
 import { Avatar, AvatarFallback } from "./ui/avatar";
 import {
