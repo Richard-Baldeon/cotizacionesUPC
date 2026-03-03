@@ -1,0 +1,51 @@
+import { User } from "../types/user";
+
+export const users: User[] = [
+  {
+    id: "1",
+    email: "admin@cotizaciones.com",
+    password: "admin123",
+    name: "Carlos Administrador",
+    role: "admin",
+    phone: "+1 (555) 100-0001",
+    createdAt: "2024-01-15T10:00:00Z",
+  },
+  {
+    id: "2",
+    email: "vendedor@cotizaciones.com",
+    password: "vendedor123",
+    name: "María Vendedora",
+    role: "seller",
+    phone: "+1 (555) 200-0002",
+    createdAt: "2024-02-20T10:00:00Z",
+  },
+  {
+    id: "3",
+    email: "cliente@empresa.com",
+    password: "cliente123",
+    name: "Juan Cliente",
+    role: "client",
+    phone: "+1 (555) 300-0003",
+    company: "Empresa Demo S.A.",
+    createdAt: "2024-03-10T10:00:00Z",
+  },
+  {
+    id: "4",
+    email: "vendedor2@cotizaciones.com",
+    password: "vendedor123",
+    name: "Pedro Vendedor",
+    role: "seller",
+    phone: "+1 (555) 200-0004",
+    createdAt: "2024-02-25T10:00:00Z",
+  },
+  {
+    id: "5",
+    email: "cliente2@empresa.com",
+    password: "cliente123",
+    name: "Ana Martínez",
+    role: "client",
+    phone: "+1 (555) 300-0005",
+    company: "Tech Solutions Inc.",
+    createdAt: "2024-03-15T10:00:00Z",
+  },
+];
